@@ -119,8 +119,8 @@
     <div class="container">
         <div class="row gy-5">
             <!-- About -->
-            <div class="col-md-5">
-                <img src="assets/images/logo/logo.png" alt="Hansraj Enterprises Logo" class="footer-logo"
+            <div class="col-md-4">
+                <img src="<?= $base_url ?>/assets/images/logo/logo.png" alt="Hansraj Enterprises Logo" class="footer-logo"
                     style="width:80px">
                 <div class="py-2">
                     <h3>About Ehsaas Nasha Mukti Kendra</h3>
@@ -133,14 +133,28 @@
             </div>
 
             <!-- Quick Links -->
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <h3>Quick Links</h3>
                 <ul class="list-unstyled">
                     <li class="mb-2"><a href="<?= $base_url ?>" class="text-white">Home</a></li>
-                    <li class="mb-2"><a href="#about" class="text-white">About Us</a></li>
-                    <li class="mb-2"><a href="#services" class="text-white">Our Services</a></li>
-                    <li class="mb-2"><a href="#gallery" class="text-white">Gallery</a></li>
-                    <li class="mb-2"><a href="#contact" class="text-white">Contact</a></li>
+                    <li class="mb-2"><a href="<?= $base_url ?>about-us.php" class="text-white">About Us</a></li>
+                    <li class="mb-2"><a href="<?= $base_url ?>gallery.php" class="text-white">Gallery</a></li>
+                    <li class="mb-2"><a href="<?= $base_url ?>contact-us.php" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <h3>Services</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="<?= $base_url ?>services/alcohol-addiction.php" class="text-white">Alcohol Addiction</a></li>
+                    <li class="mb-2"><a href="<?= $base_url ?>services/drugs-addiction.php" class="text-white">Drugs Addiction</a></li>
+                    <li class="mb-2"><a href="<?= $base_url ?>services/marijuana-addiction.php" class="text-white">Marijuana Addiction</a></li>
+                    <li class="mb-2"><a href="<?= $base_url ?>services/whitener-addiction.php" class="text-white">Whitener Addiction</a></li>
+                    <li class="mb-2"><a href="<?= $base_url ?>services/heroin-addiction.php" class="text-white">Heroin Addiction</a></li>
+                    <li class="mb-2"><a href="<?= $base_url ?>services/cocaine-addiction.php" class="text-white">Cocaine Addiction</a></li>
+                    <li class="mb-2"><a href="<?= $base_url ?>services/detoxification.php" class="text-white">Detoxification</a></li>
+                    <li class="mb-2"><a href="<?= $base_url ?>services/depression-treatment.php" class="text-white">Depression Treatment</a></li>
+                    <li class="mb-2"><a href="<?= $base_url ?>services/mental-health.php" class="text-white">Mental Health</a></li>
                 </ul>
             </div>
 

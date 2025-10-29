@@ -241,6 +241,7 @@
                                     Health</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item"><a class="nav-link" href="<?= $base_url ?>blogs">Blogs</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= $base_url ?>gallery.php">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= $base_url ?>contact-us.php">Contact Us</a></li>
                 </ul>
