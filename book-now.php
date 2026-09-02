@@ -132,7 +132,7 @@
                     var message = document.getElementById('message').value || 'N/A';
 
                     // WhatsApp number (replace with your number, country code without +)
-                    var whatsappNumber = '919955118285';
+                    var whatsappNumber = '919288287732';
 
                     // Construct message
                     var whatsappMessage = `*New Appointment Request*\n\n*Name:* ${name}\n*Mobile:* ${number}\n*Email:* ${email}\n*Address:* ${address}\n*Service:* ${service}\n*Date:* ${date}\n*Time:* ${time}\n*Message:* ${message}`;

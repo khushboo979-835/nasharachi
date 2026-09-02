@@ -24,8 +24,8 @@
                         <i class="bi bi-telephone-fill  fs-5 me-3"></i>
                         <div>
                             <h6 class="fw-semibold mb-1">Phone</h6>
-                            <p class="mb-0"><a href="tel:+919955118285" class="text-dark">+91 99551 18285</a></p>
-                            <p class="mb-0"><a href="https://wa.me/919955118285" target="_blank" class="text-dark">WhatsApp: +91 99551 18285</a></p>
+                            <p class="mb-0"><a href="tel:+919288287732" class="text-dark">+91 92882 87732</a></p>
+                            <p class="mb-0"><a href="https://wa.me/919288287732" target="_blank" class="text-dark">WhatsApp: +91 92882 87732</a></p>
                         </div>
                     </div>
 
@@ -176,7 +176,7 @@
                 var message = document.getElementById('cmessage').value;
 
                 // WhatsApp number (replace with your number, include country code without +)
-                var whatsappNumber = '919955118285';
+                var whatsappNumber = '919288287732';
 
                 // Construct WhatsApp message
                 var whatsappMessage = `*New Contact Form Submission*\n\n*Name:* ${name}\n*Number:* ${number}\n*Address:* ${address}\n*Service:* ${service}\n*Message:* ${message}`;

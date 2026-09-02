@@ -17,7 +17,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Nasha Mukti Kendra Ranchi - Best De-Addiction & Rehab Centre" />
 <meta property="og:description"
-    content="Nasha Mukti Kendra Ranchi provides professional de-addiction and rehabilitation services for alcohol and drug recovery. Visit us at Ormanjhi, Irba, Rukka, dam road, Dhobiya Ghat, Hutup, Ranchi, Jharkhand 835219. Contact: +91 99551 18285." />
+    content="Nasha Mukti Kendra Ranchi provides professional de-addiction and rehabilitation services for alcohol and drug recovery. Visit us at Ormanjhi, Irba, Rukka, dam road, Dhobiya Ghat, Hutup, Ranchi, Jharkhand 835219. Contact: +91 92882 87732." />
 <meta property="og:image" content="<?= $base_url ?>assets/images/logo/logo.png" />
 <meta property="og:url" content="<?= $base_url ?>" />
 <meta property="og:site_name" content="Nasha Mukti Kendra Ranchi" />
@@ -26,7 +26,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Nasha Mukti Kendra Ranchi - De-Addiction & Rehab Centre" />
 <meta name="twitter:description"
-    content="Nasha Mukti Kendra Ranchi offers trusted de-addiction and rehabilitation programs for alcohol and drug dependence. Call +91 99551 18285 for support." />
+    content="Nasha Mukti Kendra Ranchi offers trusted de-addiction and rehabilitation programs for alcohol and drug dependence. Call +91 92882 87732 for support." />
 <meta name="twitter:image" content="<?= $base_url ?>assets/images/logo/logo.png" />
 <meta name="twitter:site" content="@nashamuktikendraranchi" />
 

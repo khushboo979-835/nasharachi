@@ -183,15 +183,15 @@
     <div class="container">
         <div class="row align-items-center text-center text-md-start">
             <div class="col-12 col-md-3 mb-1 mb-md-0">
-                <a href="tel:+919955118285" class="text-white text-decoration-none">
-                    <img src="assets/images/others/call.png" alt="" style="width:30px;"> +91 99551 18285
+                <a href="tel:+919288287732" class="text-white text-decoration-none">
+                    <img src="assets/images/others/call.png" alt="" style="width:30px;"> +91 92882 87732
                 </a>
             </div>
             <div class="col-12 col-md-6 mb-1 text-center mb-md-0 fw-semibold">
                 <i class="bi bi-heart-fill"></i>  Nasha Mukti Kendra Ranchi
             </div>
             <div class="col-12 col-md-3 text-center text-md-end">
-                <a href="https://wa.me/919955118285" target="_blank" class="text-white text-decoration-none">
+                <a href="https://wa.me/919288287732" target="_blank" class="text-white text-decoration-none">
                     <img src="assets/images/others/whatsapp.png" alt="" style="width:28px;"> WhatsApp Us
                 </a>
             </div>
@@ -213,12 +213,12 @@
                 <ul class="navbar-nav me-auto align-items-center"
                     style="display:flex; flex-direction:row; list-style:none; margin:0; padding:0;">
                     <li class="nav-item" style="margin-right:10px;">
-                        <a href="tel:+919955118285" class="text-decoration-none nav-link p-2 me-3" style="padding:0;">
+                        <a href="tel:+919288287732" class="text-decoration-none nav-link p-2 me-3" style="padding:0;">
                             <img src="assets/images/others/call.png" alt="call" style="width:30px;">
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://wa.me/919955118285" target="_blank" class="whatsapp-icon nav-link"
+                        <a href="https://wa.me/919288287732" target="_blank" class="whatsapp-icon nav-link"
                             style="padding:0;">
                             <img src="assets/images/others/whatsapp.png" alt="whatsapp" style="width:40px;">
                         </a>

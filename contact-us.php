@@ -36,7 +36,7 @@
                         </div>
                         <div class="contact-details-item-info">
                             <h5 class="mb-2 title">Call Us</h5>
-                            <p class="mb-0"><a href="tel:+919955118285">+91 99551 18285</a></p>
+                            <p class="mb-0"><a href="tel:+919288287732">+91 92882 87732</a></p>
                         </div>
                     </div>
                 </div>

@@ -154,8 +154,8 @@
                 <div class="footer-contact">
                     <p><strong>Address:</strong><br> Ormanjhi, Irba, Rukka, dam road, Dhobiya Ghat, Hutup, Ranchi, Jharkhand 835219
                     </p>
-                    <p><strong>Phone:</strong> <a href="tel:+919955118285">+91 99551 18285</a><br>
-                        <strong>WhatsApp:</strong> <a href="https://wa.me/919955118285" target="_blank">+91 99551 18285</a>
+                    <p><strong>Phone:</strong> <a href="tel:+919288287732">+91 92882 87732</a><br>
+                        <strong>WhatsApp:</strong> <a href="https://wa.me/919288287732" target="_blank">+91 92882 87732</a>
                     </p>
                     
                     <!-- <div class="social-icons d-flex mt-3">

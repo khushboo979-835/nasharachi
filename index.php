@@ -37,6 +37,14 @@
         </div>
     </section>
 
+    <!-- ================= Slogan Banner ================= -->
+    <section class="py-3 text-center" style="background: #eef7f0; border-top: 2px solid var(--primary-color, #28a745); border-bottom: 2px solid var(--primary-color, #28a745);">
+        <div class="container">
+            <h4 class="fw-bold mb-1 text-success">“ नशा का जो हुआ शिकार, बिखरा उसका घर परिवार। ”</h4>
+            <p class="mb-0 text-dark fw-semibold fs-6">रांची का एकमात्र भरोसेमंद नशा मुक्ति केंद्र — 100% रिकवरी रेट | Call: +91 92882 87732</p>
+        </div>
+    </section>
+
     <!-- =============================================================== -->
     
     <!-- =============================================================== -->
@@ -335,8 +343,6 @@
         </div>
     </section>
 
-    <!-- ============================================================== -->
-    <?php include("youtube.php"); ?>
     <!-- =============================================================== -->
     <section class="why-choose py-2">
         <div class="container">
@@ -414,7 +420,7 @@
                 var message = document.getElementById('message').value || 'N/A';
 
                 // WhatsApp number (replace with your number, country code without +)
-                var whatsappNumber = '919955118285';
+                var whatsappNumber = '919288287732';
 
                 // Construct message
                 var whatsappMessage = `*New Appointment Request*\n\n*Name:* ${name}\n*Mobile:* ${number}\n*Email:* ${email}\n*Address:* ${address}\n*Service:* ${service}\n*Date:* ${date}\n*Time:* ${time}\n*Message:* ${message}`;
