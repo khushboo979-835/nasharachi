@@ -7,8 +7,8 @@
 <!-- AOS Animation CSS -->
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-<!-- Custom Plugin CSS (if any) -->
-<link rel="stylesheet" href="<?= $base_url ?>assets/css/style.css" />
+<!-- Custom Plugin CSS -->
+<link rel="stylesheet" href="<?= $base_url ?>assets/css/style.css?v=<?= time() ?>" />
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">

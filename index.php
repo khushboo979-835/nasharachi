@@ -5,30 +5,169 @@
     <?php include("common/config.php"); ?>
     <?php include("common/head.php"); ?>
     <?php include("common/plugins.php"); ?>
+    <style>
+        /* ================= Bulletproof Hero Banner Styles ================= */
+        .hero-banner-section {
+            position: relative;
+            width: 100%;
+            min-height: 520px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background-color: #0f172a;
+        }
+
+        .hero-bg-media {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .hero-bg-media img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 25%;
+            display: block;
+        }
+
+        .hero-shade-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(15, 23, 42, 0.7) 0%, rgba(15, 23, 42, 0.8) 100%);
+            z-index: 2;
+        }
+
+        .hero-text-container {
+            position: relative;
+            z-index: 5;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 45px 15px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .hero-tagline {
+            color: #ffffff;
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+            letter-spacing: 0.3px;
+        }
+
+        .hero-heading {
+            color: #ffffff;
+            font-size: 2.75rem;
+            font-weight: 800;
+            margin-bottom: 18px;
+            line-height: 1.25;
+            text-shadow: 0 3px 10px rgba(0, 0, 0, 0.95);
+        }
+
+        .hero-contact-callout {
+            color: #ffffff;
+            font-size: 1.55rem;
+            font-weight: 700;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+        }
+
+        .hero-cyan-call-btn {
+            display: inline-block;
+            background: #4ec6e0;
+            color: #ffffff !important;
+            font-size: 2.35rem;
+            font-weight: 800;
+            padding: 12px 45px;
+            border-radius: 18px;
+            border: 3.5px solid #ffffff;
+            box-shadow: 0 8px 25px rgba(78, 198, 224, 0.5), 0 4px 12px rgba(0, 0, 0, 0.4);
+            text-decoration: none;
+            letter-spacing: 1.5px;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .hero-cyan-call-btn:hover {
+            background: #3bb2cd;
+            transform: scale(1.04);
+            box-shadow: 0 12px 30px rgba(78, 198, 224, 0.7);
+            color: #ffffff !important;
+        }
+
+        @media (max-width: 768px) {
+            .hero-banner-section {
+                min-height: 440px;
+            }
+            .hero-tagline {
+                font-size: 1.1rem;
+            }
+            .hero-heading {
+                font-size: 1.95rem;
+                margin-bottom: 14px;
+            }
+            .hero-contact-callout {
+                font-size: 1.25rem;
+                margin-bottom: 14px;
+            }
+            .hero-cyan-call-btn {
+                font-size: 1.65rem;
+                padding: 10px 28px;
+                border-radius: 14px;
+                border-width: 2.5px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .hero-heading {
+                font-size: 1.6rem;
+            }
+            .hero-cyan-call-btn {
+                font-size: 1.4rem;
+                padding: 8px 20px;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <?php include("common/header.php"); ?>
-    <!-- ================= Hero Section (Single Static Banner with Cyan Phone Box) ================= -->
-    <section class="hero-section">
-        <div class="hero-banner-bg" style="background-image: url('<?= $base_url ?>assets/images/banner/banner.jpg');"></div>
+    
+    <!-- ================= Hero Section (Single Static Building Image with Cyan Phone Box) ================= -->
+    <section class="hero-banner-section">
+        <div class="hero-bg-media">
+            <img src="<?= $base_url ?>assets/images/banner/banner.jpg" alt="Nasha Mukti Kendra Ranchi Building">
+            <div class="hero-shade-overlay"></div>
+        </div>
 
-        <!-- Hero Centered Overlay Content -->
-        <div class="hero-overlay-content">
-            <p class="hero-tagline-text">
+        <div class="hero-text-container">
+            <p class="hero-tagline">
                 सबसे Affordable और सुरक्षित केंद्र in Ranchi
             </p>
 
-            <h1 class="hero-main-heading">
+            <h1 class="hero-heading">
                 Nasha Mukti Kendra Ranchi
             </h1>
 
-            <div class="hero-contact-prompt">
-                <span class="red-phone-icon">📞</span> संपर्क करें
+            <div class="hero-contact-callout">
+                <span>📞</span> संपर्क करें
             </div>
 
             <div>
-                <a href="tel:+919288287732" class="hero-cyan-phone-btn" title="Call Now">
+                <a href="tel:+919288287732" class="hero-cyan-call-btn" title="Call Now">
                     92882 87732
                 </a>
             </div>
@@ -44,8 +183,6 @@
     </section>
 
     <!-- =============================================================== -->
-    
-    <!-- =============================================================== -->
     <section class="py-5 about-us bg-white">
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -53,7 +190,6 @@
                     <h2>About <span>Nasha Mukti Kendra Ranchi</span></h2>
                 </div>
 
-                
                 <div class="col-md-6">
                     <p class="text-muted">
                         <strong class="text-muted">Nasha Mukti Kendra Ranchi</strong>
@@ -75,8 +211,6 @@
                         emotional, and psychological care. Each recovery journey is guided by experienced doctors,
                         therapists, and counselors who are dedicated to long-term healing.
                     </p>
-
-                    
 
                     <div class="py-1">
                         <a href="about-us.php" class="btn-pro">
@@ -167,7 +301,7 @@
                     </div>
                 </div>
 
-                <!-- Drug Addiction -->
+                <!-- Drugs Addiction -->
                 <div class="col-md-4">
                     <div class="card service-card h-100 shadow-sm">
                         <div class="card-img-wrapper">
@@ -180,30 +314,8 @@
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Drug Addiction Treatment</h5>
-                            <p class="card-text">Specialized programs for <strong>drug addiction</strong> including
-                                heroin,
-                                cocaine, and other substances, with structured therapy and rehab care.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Marijuana Addiction -->
-                <div class="col-md-4">
-                    <div class="card service-card h-100 shadow-sm">
-                        <div class="card-img-wrapper">
-                            <img src="<?= $base_url ?>/assets/images/services/3.jpg" class="card-img-top"
-                                alt="Marijuana Addiction Rehabilitation Ranchi">
-                            <div class="card-overlay">
-                                <a href="<?= $base_url ?>services/marijuana-addiction.php" class="btn btn-overlay">Read
-                                    More</a>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Marijuana Addiction Treatment</h5>
-                            <p class="card-text">Tailored recovery plans for individuals struggling with
-                                <strong>marijuana addiction</strong>, focusing on behavioral therapy and relapse
-                                prevention.
-                            </p>
+                            <p class="card-text">Holistic rehabilitation for <strong>substance abuse</strong> and drug
+                                dependence with expert medical care, psychiatric support, and relapse prevention.</p>
                         </div>
                     </div>
                 </div>
@@ -212,8 +324,8 @@
                 <div class="col-md-4">
                     <div class="card service-card h-100 shadow-sm">
                         <div class="card-img-wrapper">
-                            <img src="<?= $base_url ?>/assets/images/services/4.jpg" class="card-img-top"
-                                alt="Whitener Addiction Treatment in Ranchi">
+                            <img src="<?= $base_url ?>/assets/images/services/3.jpg" class="card-img-top"
+                                alt="Inhalant & Whitener Addiction Treatment Ranchi">
                             <div class="card-overlay">
                                 <a href="<?= $base_url ?>services/whitener-addiction.php" class="btn btn-overlay">Read
                                     More</a>
@@ -221,9 +333,8 @@
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Whitener Addiction Treatment</h5>
-                            <p class="card-text">Effective therapy and counseling sessions to overcome
-                                <strong>whitener addiction</strong> and promote healthier coping mechanisms.
-                            </p>
+                            <p class="card-text">Specialized therapy and counseling for individuals addicted to
+                                <strong>inhalants and whiteners</strong>, focusing on behavioral recovery.</p>
                         </div>
                     </div>
                 </div>
@@ -232,7 +343,7 @@
                 <div class="col-md-4">
                     <div class="card service-card h-100 shadow-sm">
                         <div class="card-img-wrapper">
-                            <img src="<?= $base_url ?>/assets/images/services/5.jpg" class="card-img-top"
+                            <img src="<?= $base_url ?>/assets/images/services/4.jpg" class="card-img-top"
                                 alt="Heroin Addiction Treatment in Ranchi">
                             <div class="card-overlay">
                                 <a href="<?= $base_url ?>services/heroin-addiction.php" class="btn btn-overlay">Read
@@ -241,27 +352,27 @@
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Heroin Addiction Treatment</h5>
-                            <p class="card-text">A combination of <strong>detoxification</strong>, therapy, and medical
-                                supervision to help patients recover from <strong>heroin addiction</strong>.</p>
+                            <p class="card-text">Structured <strong>opiate de-addiction programs</strong> including
+                                medical detoxification, psychological support, and long-term rehabilitation.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Cocaine Addiction -->
+                <!-- Marijuana Addiction -->
                 <div class="col-md-4">
                     <div class="card service-card h-100 shadow-sm">
                         <div class="card-img-wrapper">
-                            <img src="<?= $base_url ?>/assets/images/services/6.png" class="card-img-top"
-                                alt="Cocaine Addiction Treatment in Ranchi">
+                            <img src="<?= $base_url ?>/assets/images/services/5.jpg" class="card-img-top"
+                                alt="Marijuana / Weed De-Addiction Centre Ranchi">
                             <div class="card-overlay">
-                                <a href="<?= $base_url ?>services/cocaine-addiction.php" class="btn btn-overlay">Read
+                                <a href="<?= $base_url ?>services/marijuana-addiction.php" class="btn btn-overlay">Read
                                     More</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Cocaine Addiction Treatment</h5>
-                            <p class="card-text">Structured recovery plans for <strong>cocaine addiction</strong>, with
-                                therapy, counseling, and relapse prevention techniques.</p>
+                            <h5 class="card-title">Marijuana Addiction Treatment</h5>
+                            <p class="card-text">Therapeutic support to help individuals break free from <strong>cannabis
+                                    and marijuana dependence</strong> with lifestyle modifications.</p>
                         </div>
                     </div>
                 </div>
@@ -270,38 +381,36 @@
                 <div class="col-md-4">
                     <div class="card service-card h-100 shadow-sm">
                         <div class="card-img-wrapper">
-                            <img src="<?= $base_url ?>/assets/images/services/7.jpg" class="card-img-top"
-                                alt="Detoxification Treatment in Ranchi">
+                            <img src="<?= $base_url ?>/assets/images/services/6.png" class="card-img-top"
+                                alt="Medical Detoxification Program Ranchi">
                             <div class="card-overlay">
                                 <a href="<?= $base_url ?>services/detoxification.php" class="btn btn-overlay">Read
                                     More</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Detoxification Programs</h5>
-                            <p class="card-text">Safe and medically supervised <strong>detoxification</strong>
-                                treatments
-                                to cleanse the body and prepare individuals for rehabilitation.</p>
+                            <h5 class="card-title">Detoxification Treatment</h5>
+                            <p class="card-text">24/7 medically supervised <strong>detox programs</strong> to safely
+                                eliminate toxins from the body and manage withdrawal symptoms comfortably.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Depression Treatment -->
+                <!-- Cocaine Addiction -->
                 <div class="col-md-4">
                     <div class="card service-card h-100 shadow-sm">
                         <div class="card-img-wrapper">
-                            <img src="<?= $base_url ?>/assets/images/services/8.jpg" class="card-img-top"
-                                alt="Depression Treatment in Ranchi">
+                            <img src="<?= $base_url ?>/assets/images/services/7.jpg" class="card-img-top"
+                                alt="Cocaine Addiction Treatment in Ranchi">
                             <div class="card-overlay">
-                                <a href="<?= $base_url ?>services/depression-treatment.php" class="btn btn-overlay">Read
+                                <a href="<?= $base_url ?>services/cocaine-addiction.php" class="btn btn-overlay">Read
                                     More</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Depression Treatment</h5>
-                            <p class="card-text">Professional therapy and medical support to manage and recover from
-                                <strong>depression</strong>, ensuring emotional and mental well-being.
-                            </p>
+                            <h5 class="card-title">Cocaine Addiction Treatment</h5>
+                            <p class="card-text">Intensive rehabilitation for <strong>stimulant addiction</strong>,
+                                combining cognitive therapy, behavioral modification, and counseling.</p>
                         </div>
                     </div>
                 </div>
@@ -310,89 +419,85 @@
                 <div class="col-md-4">
                     <div class="card service-card h-100 shadow-sm">
                         <div class="card-img-wrapper">
-                            <img src="<?= $base_url ?>/assets/images/services/9.jpg" class="card-img-top"
-                                alt="Mental Health Treatment in Ranchi">
+                            <img src="<?= $base_url ?>/assets/images/services/8.jpg" class="card-img-top"
+                                alt="Mental Health & Psychological Care Ranchi">
                             <div class="card-overlay">
                                 <a href="<?= $base_url ?>services/mental-health.php" class="btn btn-overlay">Read
                                     More</a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Mental Health Counseling</h5>
-                            <p class="card-text text-muted">Holistic <strong>mental health treatment</strong> and
-                                counseling
-                                sessions
-                                to build positivity, emotional strength, and long-term recovery.</p>
+                            <h5 class="card-title">Mental Health Treatment</h5>
+                            <p class="card-text">Comprehensive psychological support and psychiatric care for
+                                <strong>anxiety, bipolar disorder, and emotional wellness</strong>.</p>
                         </div>
                     </div>
                 </div>
+
+                <!-- Depression Treatment -->
+                <div class="col-md-4">
+                    <div class="card service-card h-100 shadow-sm">
+                        <div class="card-img-wrapper">
+                            <img src="<?= $base_url ?>/assets/images/services/9.jpg" class="card-img-top"
+                                alt="Depression Treatment & Counseling Ranchi">
+                            <div class="card-overlay">
+                                <a href="<?= $base_url ?>services/depression-treatment.php" class="btn btn-overlay">Read
+                                    More</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Depression Treatment</h5>
+                            <p class="card-text">Professional psychotherapy, lifestyle coaching, and counseling to help
+                                overcome <strong>clinical depression and stress</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
     <!-- ================================================================ -->
     <?php include("slider.php"); ?>
-    <!-- =============================================================== -->
-    <section class="second-section py-5">
+    <!-- ================================================================ -->
+
+    <!-- ================================================================ -->
+    <!-- Video Section -->
+    <section class="video-section">
         <div class="container">
-            <div class="row g-4 text-center">
-                <!-- Yoga and Meditation -->
-                <div class="col-md-4">
-                    <div class="card feature-card h-100 shadow-sm">
-                        <div class="icon-wrapper mb-3">
-                            <i class="bi bi-flower1"></i>
-                        </div>
-                        <h5 class="mb-3 text-white">Yoga & Meditation</h5>
-                        <p class="text-white px-3">
-                            Daily <strong>yoga</strong> and <strong>meditation</strong> sessions help patients stay
-                            calm,
-                            focused, and mentally strong during their recovery journey.
-                        </p>
+            <div class="row align-items-center">
+                <!-- Video Thumbnail with Play Button -->
+                <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+                    <div class="video-wrapper">
+                        <img src="<?= $base_url ?>assets/images/background/2.jpg" alt="Centre Video"
+                            class="img-fluid rounded shadow">
+                        <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" class="play-btn">
+                            <i class="bi bi-play-fill"></i>
+                        </a>
                     </div>
                 </div>
 
-                <!-- Nutritious Meals -->
-                <div class="col-md-4">
-                    <div class="card feature-card h-100 shadow-sm">
-                        <div class="icon-wrapper mb-3">
-                            <i class="bi bi-egg-fried"></i>
-                        </div>
-                        <h5 class="mb-3 text-white">Nutritious, Balanced Meals</h5>
-                        <p class="text-white px-3">
-                            We provide <strong>healthy meals</strong> prepared under expert supervision to boost
-                            immunity,
-                            energy levels, and overall well-being.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- 12 Step Program -->
-                <div class="col-md-4">
-                    <div class="card feature-card h-100 shadow-sm">
-                        <div class="icon-wrapper mb-3">
-                            <i class="bi bi-layers"></i>
-                        </div>
-                        <h5 class="mb-3 text-white">12 Step Program</h5>
-                        <p class="text-white px-3">
-                            Our structured <strong>12 Step Program</strong> guides individuals through a proven recovery
-                            path, ensuring long-term sobriety and relapse prevention.
-                        </p>
-                    </div>
+                <!-- Content Area -->
+                <div class="col-lg-6 text-white text-md-start text-center">
+                    <h2 class="fw-bold mb-3 text-white">Experience Recovery at Our Centre</h2>
+                    <p class="lead mb-4">
+                        Watch how our dedicated team and world-class facilities help individuals reclaim their lives
+                        from addiction.
+                    </p>
+                    <a href="contact-us.php" class="btn-pro">Contact Us</a>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- =============================================================== -->
-    <section class="why-choose py-2">
+    <section class="py-5 who-we-are">
         <div class="container">
             <div class="row align-items-center">
+
                 <!-- Left Side Image -->
-                <div class="col-md-5 mb-1 mb-md-0">
-                    <div class="row">
-                        <div class="col-12 mb-2 image-1">
-                            <img src="assets/images/gallery/1.jpg"
-                                alt="Why Choose Nasha Mukti Kendra Ranchi" class="img-fluid rounded">
-                        </div>
+                <div class="col-md-5 mb-4 mb-md-0 text-center">
+                    <div class="about-images">
+                        <img src="<?= $base_url ?>assets/images/about/about.jpg" alt="About Nasha Mukti Kendra Ranchi"
+                            class="img-fluid rounded shadow">
                     </div>
                 </div>
 
@@ -416,7 +521,7 @@
                         that focuses on the physical, mental, and emotional well-being of every individual.
                     </p>
                     
-                    <p class="mt-3  text-danger">
+                    <p class="mt-3 text-danger">
                         Choose <strong>Nasha Mukti Kendra Ranchi</strong> to start your journey
                         towards recovery, positivity, and a healthy, addiction-free life.
                     </p>
@@ -436,43 +541,5 @@
     <!-- ================================================================ -->
     <?php include("common/footer.php"); ?>
 </body>
-<script>
-    (function () {
-        'use strict';
-        var form = document.getElementById('appointmentForm');
-
-        form.addEventListener('submit', function (event) {
-            if (!form.checkValidity()) {
-                event.preventDefault();
-                event.stopPropagation();
-            } else {
-                event.preventDefault();
-
-                // Get form values
-                var name = document.getElementById('name').value;
-                var number = document.getElementById('number').value;
-                var email = document.getElementById('email').value || 'N/A';
-                var address = document.getElementById('address').value || 'N/A';
-                var service = document.getElementById('service').value;
-                var date = document.getElementById('date').value;
-                var time = document.getElementById('time').value;
-                var message = document.getElementById('message').value || 'N/A';
-
-                // WhatsApp number (replace with your number, country code without +)
-                var whatsappNumber = '919288287732';
-
-                // Construct message
-                var whatsappMessage = `*New Appointment Request*\n\n*Name:* ${name}\n*Mobile:* ${number}\n*Email:* ${email}\n*Address:* ${address}\n*Service:* ${service}\n*Date:* ${date}\n*Time:* ${time}\n*Message:* ${message}`;
-
-                var encodedMessage = encodeURIComponent(whatsappMessage);
-
-                // Open WhatsApp
-                window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
-            }
-
-            form.classList.add('was-validated');
-        }, false);
-    })();
-</script>
 
 </html>
