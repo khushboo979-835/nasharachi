@@ -22,58 +22,51 @@
         transition: all 0.3s ease;
     }
 
-    .nav-header-actions {
-        display: flex;
-        align-items: center;
-        gap: 10px;
+    /* Mobile Only Action Buttons (WhatsApp + Call + Hamburger) */
+    .mobile-header-actions {
+        display: none;
     }
 
-    /* WhatsApp Button in Header */
+    /* WhatsApp Button in Mobile Header */
     .btn-nav-whatsapp {
         background-color: #0e8345;
         color: #ffffff !important;
         font-weight: 700;
-        font-size: 14px;
-        padding: 7px 16px;
+        font-size: 13px;
+        padding: 6px 12px;
         border-radius: 6px;
         text-decoration: none;
         display: inline-flex;
         align-items: center;
         justify-content: center;
         transition: all 0.3s ease;
-        letter-spacing: 0.3px;
         border: none;
     }
 
     .btn-nav-whatsapp:hover {
         background-color: #0b6837;
         color: #ffffff !important;
-        transform: translateY(-1px);
-        box-shadow: 0 4px 10px rgba(14, 131, 69, 0.3);
     }
 
-    /* Phone Button in Header */
+    /* Phone Button in Mobile Header */
     .btn-nav-phone {
         background-color: #dc2626;
         color: #ffffff !important;
         font-weight: 800;
-        font-size: 14px;
-        padding: 7px 16px;
+        font-size: 13px;
+        padding: 6px 12px;
         border-radius: 6px;
         text-decoration: none;
         display: inline-flex;
         align-items: center;
         justify-content: center;
         transition: all 0.3s ease;
-        letter-spacing: 0.5px;
         border: none;
     }
 
     .btn-nav-phone:hover {
         background-color: #b91c1c;
         color: #ffffff !important;
-        transform: translateY(-1px);
-        box-shadow: 0 4px 10px rgba(220, 38, 38, 0.3);
     }
 
     /* Hamburger Toggler */
@@ -171,7 +164,7 @@
         }
     }
 
-    /* Mobile Responsive Header Styles */
+    /* Mobile Responsive Header Styles (Only max-width: 991px) */
     @media (max-width: 991px) {
         .custom-navbar {
             padding: 6px 12px;
@@ -181,11 +174,11 @@
             height: 48px;
         }
 
-        .btn-nav-whatsapp,
-        .btn-nav-phone {
-            font-size: 12.5px;
-            padding: 6px 10px;
-            border-radius: 5px;
+        /* Show mobile buttons and toggle on mobile ONLY */
+        .mobile-header-actions {
+            display: flex !important;
+            align-items: center;
+            gap: 8px;
         }
 
         .navbar-collapse {
@@ -213,7 +206,7 @@
             font-size: 11.5px;
             padding: 5px 8px;
         }
-        .nav-header-actions {
+        .mobile-header-actions {
             gap: 6px;
         }
     }
@@ -228,19 +221,19 @@
                 <img src="<?= $base_url ?>assets/images/logo/logo.png?v=2" alt="Nasha Mukti Kendra Ranchi Logo">
             </a>
 
-            <!-- Right Side Action Buttons & Hamburger (Always visible right side) -->
-            <div class="d-flex align-items-center ms-auto nav-header-actions">
-                <!-- WhatsApp Button -->
+            <!-- Mobile Only Action Buttons & Hamburger (Hidden on Desktop) -->
+            <div class="mobile-header-actions ms-auto">
+                <!-- WhatsApp Button (Mobile only) -->
                 <a href="https://wa.me/919288287732" target="_blank" class="btn-nav-whatsapp">
                     WhatsApp
                 </a>
 
-                <!-- Phone Button -->
+                <!-- Phone Button (Mobile only) -->
                 <a href="tel:+919288287732" class="btn-nav-phone">
                     92882 87732
                 </a>
 
-                <!-- Hamburger Toggle -->
+                <!-- Hamburger Toggle (Mobile only) -->
                 <button class="navbar-toggler-btn" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -250,9 +243,9 @@
                 </button>
             </div>
 
-            <!-- Nav Links Collapse -->
+            <!-- Desktop & Mobile Nav Links -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav align-items-lg-center my-2 my-lg-0 ms-lg-4">
+                <ul class="navbar-nav align-items-lg-center my-2 my-lg-0 ms-lg-auto">
                     <li class="nav-item"><a class="nav-link" href="<?= $base_url ?>">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= $base_url ?>about-us.php">About</a></li>
                     <li class="nav-item dropdown">

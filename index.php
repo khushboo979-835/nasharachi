@@ -9,29 +9,9 @@
 
 <body>
     <?php include("common/header.php"); ?>
-    <!-- ================= Hero Section (Reference Design with Cyan Phone Button & Hindi Heading) ================= -->
+    <!-- ================= Hero Section (Single Static Banner with Cyan Phone Box) ================= -->
     <section class="hero-section">
-        <div id="heroSlider" class="carousel slide carousel-fade w-100" data-bs-ride="carousel" data-bs-interval="4500">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="hero-slide-bg" style="background-image: url('<?= $base_url ?>assets/images/services/services/depression.jpg');"></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="hero-slide-bg" style="background-image: url('<?= $base_url ?>assets/images/banner/banner.jpg');"></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="hero-slide-bg" style="background-image: url('<?= $base_url ?>assets/images/background/3.jpg');"></div>
-                </div>
-            </div>
-
-            <!-- Left and Right Slider Arrows (< and >) -->
-            <button class="carousel-control-prev custom-hero-arrow" type="button" data-bs-target="#heroSlider" data-bs-slide="prev" aria-label="Previous Slide">
-                <span class="hero-arrow-icon">&lsaquo;</span>
-            </button>
-            <button class="carousel-control-next custom-hero-arrow" type="button" data-bs-target="#heroSlider" data-bs-slide="next" aria-label="Next Slide">
-                <span class="hero-arrow-icon">&rsaquo;</span>
-            </button>
-        </div>
+        <div class="hero-banner-bg" style="background-image: url('<?= $base_url ?>assets/images/banner/banner.jpg');"></div>
 
         <!-- Hero Centered Overlay Content -->
         <div class="hero-overlay-content">

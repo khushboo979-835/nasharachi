@@ -15,7 +15,7 @@ body {
     height: 100%;
 }
 
-/* ================= Hero Section (Reference Design) ================= */
+/* ================= Hero Section (Static Banner with Cyan Phone Box) ================= */
 .hero-section {
     position: relative;
     overflow: hidden;
@@ -26,15 +26,16 @@ body {
     justify-content: center;
 }
 
-.hero-slide-bg {
+.hero-banner-bg {
     width: 100%;
-    height: 540px;
+    min-height: 540px;
     background-size: cover;
-    background-position: center;
+    background-position: center 35%;
     position: relative;
+    background-repeat: no-repeat;
 }
 
-.hero-slide-bg::after {
+.hero-banner-bg::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -110,85 +111,44 @@ body {
     color: #ffffff !important;
 }
 
-/* Custom Hero Arrow Buttons */
-.custom-hero-arrow {
-    width: 48px;
-    height: 48px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.38);
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.85;
-    transition: all 0.3s ease;
-    z-index: 12;
-    margin: 0 15px;
-}
-
-.custom-hero-arrow:hover {
-    background: rgba(0, 0, 0, 0.7);
-    opacity: 1;
-    transform: translateY(-50%) scale(1.08);
-}
-
-.hero-arrow-icon {
-    font-size: 32px;
-    line-height: 1;
-    color: #ffffff;
-    font-weight: 300;
-}
-
 @media (max-width: 768px) {
     .hero-section {
+        min-height: 440px;
+    }
+
+    .hero-banner-bg {
         min-height: 460px;
     }
 
-    .hero-slide-bg {
-        height: 480px;
-    }
-
     .hero-tagline-text {
-        font-size: 1.15rem;
+        font-size: 1.1rem;
     }
 
     .hero-main-heading {
-        font-size: 2rem;
+        font-size: 1.95rem;
         margin-bottom: 14px;
     }
 
     .hero-contact-prompt {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
         margin-bottom: 12px;
     }
 
     .hero-cyan-phone-btn {
-        font-size: 1.75rem;
-        padding: 10px 30px;
+        font-size: 1.7rem;
+        padding: 10px 28px;
         border-radius: 14px;
         border-width: 2.5px;
-    }
-
-    .custom-hero-arrow {
-        width: 38px;
-        height: 38px;
-        margin: 0 6px;
-    }
-
-    .hero-arrow-icon {
-        font-size: 24px;
     }
 }
 
 @media (max-width: 420px) {
     .hero-main-heading {
-        font-size: 1.65rem;
+        font-size: 1.6rem;
     }
     .hero-cyan-phone-btn {
-        font-size: 1.45rem;
-        padding: 8px 22px;
+        font-size: 1.4rem;
+        padding: 8px 20px;
     }
 }
 
