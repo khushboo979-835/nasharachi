@@ -1,105 +1,149 @@
-<!-- Floating Chatbot -->
-<div class="chatbot-widget">
-    <div class="chatbot-toggle" id="chatbotToggle">
-        <i class="bi bi-chat-dots"></i>
-    </div>
-    <div class="chatbot-options" id="chatbotOptions">
-        <a href="tel:+919288287732" class="chatbot-btn call-btn">
-            <i class="bi bi-telephone"></i>
+<!-- Floating Contact Widget (Call + WhatsApp) -->
+<div class="floating-contact-container">
+    <!-- Floating Call Button with Phone Pill -->
+    <div class="floating-call-wrap">
+        <a href="tel:+919288287732" class="floating-phone-pill">
+            +91 92882 87732
         </a>
-        <a href="https://wa.me/919288287732" target="_blank" class="chatbot-btn whatsapp-btn">
+        <a href="tel:+919288287732" class="floating-btn floating-call-btn" title="Call Us">
+            <i class="bi bi-telephone-fill"></i>
+        </a>
+    </div>
+
+    <!-- Floating WhatsApp Button with Tooltip -->
+    <div class="floating-wa-wrap">
+        <span class="floating-wa-tooltip">Chat on WhatsApp</span>
+        <a href="https://wa.me/919288287732" target="_blank" class="floating-btn floating-wa-btn" title="Chat on WhatsApp">
             <i class="bi bi-whatsapp"></i>
         </a>
     </div>
 </div>
 
-
 <style>
-    /* Chatbot base */
-    .chatbot-widget {
+    .floating-contact-container {
         position: fixed;
-        bottom: 20px;
-        left: 20px;
+        bottom: 25px;
+        right: 25px;
         z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 15px;
     }
 
-    /* Main toggle button */
-    .chatbot-toggle {
-        width: 55px;
-        height: 55px;
-        background: var(--primary-color);
-        color: #fff;
+    .floating-call-wrap,
+    .floating-wa-wrap {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Floating Call Button */
+    .floating-btn {
+        width: 54px;
+        height: 54px;
         border-radius: 50%;
         display: flex;
-        justify-content: center;
         align-items: center;
-        cursor: pointer;
+        justify-content: center;
+        color: #ffffff !important;
         font-size: 24px;
-        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        text-decoration: none;
+    }
+
+    .floating-call-btn {
+        background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+        animation: pulseCall 2s infinite;
+    }
+
+    .floating-call-btn:hover {
+        transform: scale(1.12);
+        box-shadow: 0 8px 22px rgba(220, 38, 38, 0.45);
+    }
+
+    /* Floating Phone Pill */
+    .floating-phone-pill {
+        background: #ffffff;
+        color: #1f2937 !important;
+        font-weight: 700;
+        font-size: 13.5px;
+        padding: 6px 14px;
+        border-radius: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        text-decoration: none;
+        border: 1px solid #e5e7eb;
+        white-space: nowrap;
         transition: all 0.3s ease;
     }
 
-    .chatbot-toggle:hover {
-        transform: rotate(15deg) scale(1.05);
+    .floating-phone-pill:hover {
+        background: #f9fafb;
+        color: #dc2626 !important;
     }
 
-    /* Options container */
-    .chatbot-options {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-        position: absolute;
-        bottom: 70px;
-        left: 10px;
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(20px);
-        transition: all 0.4s ease;
+    /* Floating WhatsApp Button */
+    .floating-wa-btn {
+        background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+        font-size: 28px;
     }
 
-    /* Show options when active */
-    .chatbot-options.active {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
+    .floating-wa-btn:hover {
+        transform: scale(1.12);
+        box-shadow: 0 8px 22px rgba(37, 211, 102, 0.45);
     }
 
-    /* Each button */
-    .chatbot-btn {
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 20px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease;
+    /* WhatsApp Tooltip */
+    .floating-wa-tooltip {
+        background: #ffffff;
+        color: #1f2937;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 5px 12px;
+        border-radius: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        border: 1px solid #e5e7eb;
+        white-space: nowrap;
+        pointer-events: none;
     }
 
-    .chatbot-btn:hover {
-        transform: scale(1.1);
+    @keyframes pulseCall {
+        0% {
+            box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.6);
+        }
+        70% {
+            box-shadow: 0 0 0 14px rgba(220, 38, 38, 0);
+        }
+        100% {
+            box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+        }
     }
 
-    /* Custom colors */
-    .call-btn {
-        background: #007bff;
-        /* Blue */
-    }
+    @media (max-width: 576px) {
+        .floating-contact-container {
+            bottom: 18px;
+            right: 18px;
+            gap: 12px;
+        }
 
-    .whatsapp-btn {
-        background: #25d366;
-        /* WhatsApp green */
+        .floating-btn {
+            width: 48px;
+            height: 48px;
+            font-size: 22px;
+        }
+
+        .floating-wa-btn {
+            font-size: 24px;
+        }
+
+        .floating-phone-pill {
+            font-size: 12px;
+            padding: 5px 10px;
+        }
+
+        .floating-wa-tooltip {
+            display: none;
+        }
     }
 </style>
-
-<script>
-    const chatbotToggle = document.getElementById("chatbotToggle");
-    const chatbotOptions = document.getElementById("chatbotOptions");
-
-    chatbotToggle.addEventListener("click", () => {
-        chatbotOptions.classList.toggle("active");
-    });
-</script>
