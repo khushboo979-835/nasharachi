@@ -9,31 +9,11 @@
 
 <body>
     <?php include("common/header.php"); ?>
-    <!-- ==================================== -->
+    <!-- ================= Hero Section (Static Banner) ================= -->
     <section class="hero">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/images/banner/1.jpg" class="d-block w-100"
-                        alt="Nasha Mukti Kendra Ranchi">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/banner/2.jpg" class="d-block w-100" alt="Rehabilitation Centre Ranchi">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/banner/3.jpg" class="d-block w-100" alt="Best Nasha Mukti Kendra Ranchi">
-                </div>
-            </div>
-
-            <!-- Carousel Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
+        <div class="hero-image-wrapper">
+            <img src="<?= $base_url ?>assets/images/banner/banner.jpg" class="d-block w-100 hero-banner-img"
+                alt="Nasha Mukti Kendra Ranchi Building">
         </div>
     </section>
 
