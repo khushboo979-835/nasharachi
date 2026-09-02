@@ -102,7 +102,7 @@
                   </a>
                 </div>
                 <!-- /Logo -->
-                <h4 class="mb-2 text-center">Welcome to Ehsaas Nasha Mukti Kendra</h4>
+                <h4 class="mb-2 text-center">Welcome to Nasha Mukti Kendra Ranchi</h4>
                 <p class="mb-4">Please sign-in to your account and start the adventure</p>
 
                 <form id="formAuthentication" class="mb-3" method="POST">

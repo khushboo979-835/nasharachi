@@ -31,14 +31,14 @@
                     <div class="row">
                         <div class="col-md-12 mb-3">
                             <img src="<?= $base_url ?>/assets/images/services/services/cocaine.jpg"
-                                alt="cocaine addiction treatment in Gorakhpur" class="img-fluid">
+                                alt="cocaine addiction treatment in Ranchi, Jharkhand" class="img-fluid">
                         </div>
                         <div class="col-md-12">
-                            <h2 class="mb-3 title">Cocaine Addiction Treatment in Gorakhpur</h2>
+                            <h2 class="mb-3 title">Cocaine Addiction Treatment in Ranchi, Jharkhand</h2>
                             <p class="text-justify text-muted">
                                 Cocaine addiction is a serious condition that affects physical health, mental
                                 well-being,
-                                and social relationships. Our <strong>cocaine de-addiction program in Gorakhpur</strong>
+                                and social relationships. Our <strong>cocaine de-addiction program in Ranchi, Jharkhand</strong>
                                 provides structured and professional care to help individuals safely overcome dependency
                                 and regain control of their lives.
                             </p>
@@ -46,7 +46,7 @@
                             <h3 class="mt-4 title">Why Cocaine Addiction Treatment is Important?</h3>
                             <p class="text-justify text-muted">
                                 Cocaine abuse can lead to heart problems, anxiety, depression, and social difficulties.
-                                Seeking professional <strong>cocaine rehabilitation in Gorakhpur</strong> ensures proper
+                                Seeking professional <strong>cocaine rehabilitation in Ranchi, Jharkhand</strong> ensures proper
                                 medical supervision, therapy, and emotional support to help individuals quit safely and
                                 prevent relapse.
                             </p>
@@ -82,7 +82,7 @@
 
                             <h3 class="mt-4 title">Benefits of Our Cocaine Addiction Treatment</h3>
                             <p class="text-justify text-muted">
-                                Our <strong>cocaine rehab center in Gorakhpur</strong> offers a safe and confidential
+                                Our <strong>cocaine rehab center in Ranchi, Jharkhand</strong> offers a safe and confidential
                                 environment
                                 for recovery. Patients gain improved focus, emotional stability, and the tools to live a
                                 productive, substance-free life. Choosing our <strong>cocaine addiction treatment

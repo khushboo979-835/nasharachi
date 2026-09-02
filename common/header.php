@@ -26,11 +26,11 @@
 
     .navbar {
         transition: all 0.4s ease;
-        background: rgba(255, 255, 255, 0.7);
-        border-radius: 12px;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 0px;
         margin: 0 auto;
-        width: 90%;
-        top: 35px;
+        width: 100%;
+        /* top: 35px; */
         position: absolute;
         left: 0;
         right: 0;
@@ -49,7 +49,7 @@
     }
 
     .navbar .nav-link {
-        color: black;
+        color: var(--tertiary-color);
         font-weight: 600;
         transition: all 0.3s ease;
         padding: 8px 12px;
@@ -58,16 +58,16 @@
     .navbar .nav-link:hover,
     .navbar .nav-link:focus,
     .navbar .dropdown-item:focus {
-        color: black;
+        color: var(--tertiary-color);
     }
 
     /* ================= Dropdown ================= */
     .navbar-nav .dropdown-menu {
         border: none;
-        border-radius: 8px;
+        border-radius: 0px;
         background: var(--tertiary-color);
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
-        padding: 8px 0;
+        padding: 8px 10px;
         animation: fadeIn 0.3s ease;
     }
 
@@ -112,7 +112,7 @@
         }
 
         .navbar .collapse {
-            background: var(--tertiary-color);
+            /* background: var(--tertiary-color); */
             border-radius: 0 0 10px 10px;
             padding: 12px 0;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -127,7 +127,7 @@
         }
 
         .toggle-icon span {
-            color: var(--primary-color);
+            color: var(--tertiary-color);
             transition: color 0.3s ease;
         }
 
@@ -183,13 +183,17 @@
     <div class="container">
         <div class="row align-items-center text-center text-md-start">
             <div class="col-12 col-md-3 mb-1 mb-md-0">
-                <i class="bi bi-telephone"></i> +91 72728 18208
+                <a href="tel:+919955118285" class="text-white text-decoration-none">
+                    <img src="assets/images/others/call.png" alt="" style="width:30px;"> +91 99551 18285
+                </a>
             </div>
-            <div class="col-12 col-md-6 mb-1 mb-md-0 fw-semibold">
-                <i class="bi bi-heart-fill"></i> Ehsaas Nasha Mukti Kendra | नई सोच नई आशा, यह है एहसास का वादा !
+            <div class="col-12 col-md-6 mb-1 text-center mb-md-0 fw-semibold">
+                <i class="bi bi-heart-fill"></i>  Nasha Mukti Kendra Ranchi
             </div>
-            <div class="col-12 col-md-3">
-                <i class="bi bi-envelope"></i> ehsaasgroup2015@gmail.com
+            <div class="col-12 col-md-3 text-center text-md-end">
+                <a href="https://wa.me/919955118285" target="_blank" class="text-white text-decoration-none">
+                    <img src="assets/images/others/whatsapp.png" alt="" style="width:28px;"> WhatsApp Us
+                </a>
             </div>
         </div>
     </div>
@@ -201,8 +205,26 @@
         <div class="container p-0">
             <!-- Logo -->
             <a class="navbar-brand" href="<?= $base_url ?>">
-                <img src="<?= $base_url ?>/assets/images/logo/logo.png" alt="Ehsaas Logo" class="img-fluid">
+                <img src="<?= $base_url ?>assets/images/logo/logo.png?v=2" alt="Nasha Mukti Kendra Ranchi Logo" class="img-fluid">
             </a>
+            
+            <div class="navbar-contact d-lg-none d-block d-flex align-items-center ms-lg-4 mt-lg-0"
+                style="justify-content:center;">
+                <ul class="navbar-nav me-auto align-items-center"
+                    style="display:flex; flex-direction:row; list-style:none; margin:0; padding:0;">
+                    <li class="nav-item" style="margin-right:10px;">
+                        <a href="tel:+919955118285" class="text-decoration-none nav-link p-2 me-3" style="padding:0;">
+                            <img src="assets/images/others/call.png" alt="call" style="width:30px;">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://wa.me/919955118285" target="_blank" class="whatsapp-icon nav-link"
+                            style="padding:0;">
+                            <img src="assets/images/others/whatsapp.png" alt="whatsapp" style="width:40px;">
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
             <!-- Toggle -->
             <button class="navbar-toggler toggle-icon" type="button" data-bs-toggle="collapse"
@@ -220,25 +242,29 @@
                         <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                         <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                            <li><a class="dropdown-item" href="<?= $base_url ?>services/alcohol-addiction.php">Alcohol
-                                    Addiction</a></li>
+
                             <li><a class="dropdown-item" href="<?= $base_url ?>services/drugs-addiction.php">Drugs
                                     Addiction</a></li>
-                            <li><a class="dropdown-item"
-                                    href="<?= $base_url ?>services/marijuana-addiction.php">Marijuana Addiction</a></li>
+
                             <li><a class="dropdown-item" href="<?= $base_url ?>services/whitener-addiction.php">Whitener
                                     Addiction</a></li>
                             <li><a class="dropdown-item" href="<?= $base_url ?>services/heroin-addiction.php">Heroin
                                     Addiction</a></li>
-                            <li><a class="dropdown-item" href="<?= $base_url ?>services/cocaine-addiction.php">Cocaine
+                            <li><a class="dropdown-item" href="<?= $base_url ?>services/alcohol-addiction.php">Alcohol
                                     Addiction</a></li>
                             <li><a class="dropdown-item"
+                                    href="<?= $base_url ?>services/marijuana-addiction.php">Marijuana Addiction</a></li>
+
+                            <li><a class="dropdown-item"
                                     href="<?= $base_url ?>services/detoxification.php">Detoxification</a></li>
+                            <li><a class="dropdown-item" href="<?= $base_url ?>services/cocaine-addiction.php">Cocaine
+                                    Addiction</a></li>
+
+                            <li><a class="dropdown-item" href="<?= $base_url ?>services/mental-health.php">Mental
+                                    Health</a></li>
                             <li><a class="dropdown-item"
                                     href="<?= $base_url ?>services/depression-treatment.php">Depression Treatment</a>
                             </li>
-                            <li><a class="dropdown-item" href="<?= $base_url ?>services/mental-health.php">Mental
-                                    Health</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="<?= $base_url ?>blogs">Blogs</a></li>
@@ -247,7 +273,8 @@
                 </ul>
 
                 <ul class="list-inline mb-0">
-                    <li class="nav-item"><a class=" btn-pro text-white" href="<?= $base_url ?>book-now.php">Book Now</a></li>
+                    <li class="nav-item"><a class=" btn-pro text-white" href="<?= $base_url ?>book-now.php">Book Now</a>
+                    </li>
                 </ul>
             </div>
         </div>

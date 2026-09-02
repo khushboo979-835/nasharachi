@@ -31,14 +31,14 @@
                     <div class="row">
                         <div class="col-md-12 mb-3">
                             <img src="<?= $base_url ?>/assets/images/services/services/mental-health.jpg"
-                                alt="mental health treatment in Gorakhpur" class="img-fluid">
+                                alt="mental health treatment in Ranchi, Jharkhand" class="img-fluid">
                         </div>
                         <div class="col-md-12">
-                            <h2 class="mb-3 title">Mental Health Treatment in Gorakhpur</h2>
+                            <h2 class="mb-3 title">Mental Health Treatment in Ranchi, Jharkhand</h2>
                             <p class="text-justify text-muted">
                                 Mental health is essential for overall well-being, affecting how we think, feel, and act
                                 in daily life.
-                                Our <strong>mental health treatment program in Gorakhpur</strong> provides comprehensive
+                                Our <strong>mental health treatment program in Ranchi, Jharkhand</strong> provides comprehensive
                                 care
                                 for conditions like anxiety, depression, stress, and emotional disturbances to help
                                 individuals
@@ -48,7 +48,7 @@
                             <h3 class="mt-4 title">Why Mental Health Treatment is Important?</h3>
                             <p class="text-justify text-muted">
                                 Poor mental health can impact relationships, work performance, and physical health.
-                                Seeking professional <strong>mental health counseling in Gorakhpur</strong> ensures
+                                Seeking professional <strong>mental health counseling in Ranchi, Jharkhand</strong> ensures
                                 early intervention,
                                 proper therapy, and continuous support to maintain emotional and psychological
                                 well-being.
@@ -81,11 +81,11 @@
 
                             <h3 class="mt-4 title">Benefits of Our Mental Health Treatment</h3>
                             <p class="text-justify text-muted">
-                                Our <strong>mental health center in Gorakhpur</strong> provides a safe and confidential
+                                Our <strong>mental health center in Ranchi, Jharkhand</strong> provides a safe and confidential
                                 space
                                 for recovery. Patients gain emotional stability, improved focus, and effective coping
                                 skills.
-                                Choosing our <strong>mental health treatment services in Gorakhpur</strong> ensures
+                                Choosing our <strong>mental health treatment services in Ranchi, Jharkhand</strong> ensures
                                 long-term
                                 support for a healthy mind and a fulfilling life.
                             </p>

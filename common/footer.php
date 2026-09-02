@@ -7,22 +7,11 @@
 <style>
     /* Enhanced Footer */
     footer {
-        background: linear-gradient(135deg, var(--primary-color), #003366);
+        background: var(--secondary-color);
         color: var(--tertiary-color);
         padding: 60px 0 30px;
         font-family: "Segoe UI", sans-serif;
         position: relative;
-    }
-
-    footer::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 5px;
-        background: var(--tertiary-color);
-        opacity: 0.2;
     }
 
     .footer-logo {
@@ -111,90 +100,84 @@
     .bottom-footer a:hover {
         text-decoration: underline;
     }
-
 </style>
 
 <!-- Footer HTML -->
 <footer>
     <div class="container">
         <div class="row gy-5">
-            <!-- About -->
-            <div class="col-md-4">
-                <img src="<?= $base_url ?>/assets/images/logo/logo.png" alt="Hansraj Enterprises Logo" class="footer-logo"
-                    style="width:80px">
-                <div class="py-2">
-                    <h3>About Ehsaas Nasha Mukti Kendra</h3>
-                    <p class="text-justify">
-                        Ehsaas Life Care Treatments & Mental Rehabilitation Centre is an innovative, top-notch
+
+            <!-- Column 1: Logo + About -->
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-about">
+                    <img src="<?= $base_url ?>assets/images/logo/logo.png?v=2" alt="Nasha Mukti Kendra Ranchi Logo"
+                        class="footer-logo" style="width:90px">
+                    <h3>About Nasha Mukti Kendra Ranchi</h3>
+                    <p>
+                        Nasha Mukti Kendra Ranchi is an innovative, top-notch
                         rehabilitation centre that focuses on patients’ personal needs by delivering ethical, effective,
                         and professional care.
                     </p>
                 </div>
             </div>
 
-            <!-- Quick Links -->
-            <div class="col-md-2">
+            <!-- Column 2: Quick Links -->
+            <div class="col-lg-2 col-md-2 col-6">
                 <h3>Quick Links</h3>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><a href="<?= $base_url ?>" class="text-white">Home</a></li>
-                    <li class="mb-2"><a href="<?= $base_url ?>about-us.php" class="text-white">About Us</a></li>
-                    <li class="mb-2"><a href="<?= $base_url ?>gallery.php" class="text-white">Gallery</a></li>
-                    <li class="mb-2"><a href="<?= $base_url ?>contact-us.php" class="text-white">Contact</a></li>
+                    <li><a href="<?= $base_url ?>">Home</a></li>
+                    <li><a href="<?= $base_url ?>about-us.php">About Us</a></li>
+                    <li><a href="<?= $base_url ?>gallery.php">Gallery</a></li>
+                    <li><a href="<?= $base_url ?>contact-us.php">Contact</a></li>
                 </ul>
             </div>
 
-            <div class="col-md-2">
+            <!-- Column 3: Services -->
+            <div class="col-lg-2 col-md-2 col-6">
                 <h3>Services</h3>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><a href="<?= $base_url ?>services/alcohol-addiction.php" class="text-white">Alcohol Addiction</a></li>
-                    <li class="mb-2"><a href="<?= $base_url ?>services/drugs-addiction.php" class="text-white">Drugs Addiction</a></li>
-                    <li class="mb-2"><a href="<?= $base_url ?>services/marijuana-addiction.php" class="text-white">Marijuana Addiction</a></li>
-                    <li class="mb-2"><a href="<?= $base_url ?>services/whitener-addiction.php" class="text-white">Whitener Addiction</a></li>
-                    <li class="mb-2"><a href="<?= $base_url ?>services/heroin-addiction.php" class="text-white">Heroin Addiction</a></li>
-                    <li class="mb-2"><a href="<?= $base_url ?>services/cocaine-addiction.php" class="text-white">Cocaine Addiction</a></li>
-                    <li class="mb-2"><a href="<?= $base_url ?>services/detoxification.php" class="text-white">Detoxification</a></li>
-                    <li class="mb-2"><a href="<?= $base_url ?>services/depression-treatment.php" class="text-white">Depression Treatment</a></li>
-                    <li class="mb-2"><a href="<?= $base_url ?>services/mental-health.php" class="text-white">Mental Health</a></li>
+                    <li><a href="<?= $base_url ?>services/alcohol-addiction.php">Alcohol Addiction</a></li>
+                    <li><a href="<?= $base_url ?>services/drugs-addiction.php">Drugs Addiction</a></li>
+                    <li><a href="<?= $base_url ?>services/marijuana-addiction.php">Marijuana Addiction</a></li>
+                    <li><a href="<?= $base_url ?>services/whitener-addiction.php">Whitener Addiction</a></li>
+                    <li><a href="<?= $base_url ?>services/heroin-addiction.php">Heroin Addiction</a></li>
+                    <li><a href="<?= $base_url ?>services/cocaine-addiction.php">Cocaine Addiction</a></li>
+                    <li><a href="<?= $base_url ?>services/detoxification.php">Detoxification</a></li>
+                    <li><a href="<?= $base_url ?>services/depression-treatment.php">Depression Treatment</a></li>
+                    <li><a href="<?= $base_url ?>services/mental-health.php">Mental Health</a></li>
                 </ul>
             </div>
 
-            <!-- Contact Info + Social -->
-            <div class="col-md-4">
+            <!-- Column 4: Contact + Social -->
+            <div class="col-lg-4 col-md-6">
                 <h3>Contact Us</h3>
-                <p>
-                    <strong>Address:</strong>
-                    C 178/112 Old Home Guard Office Daudpur Chauraha, Gorakhpur, Uttar Pradesh 273001
-                </p>
-
-                <p><strong>Phone:</strong> <a href="tel:+917272818208" class="text-white"> +91 72728 18208</a></p>
-                <p><strong>Phone:</strong> <a href="tel:+917272818209" class="text-white"> +91 72728 18209</a></p>
-
-                <p><strong>Email:</strong> <a href="mailto:ehsaasgroup2015@gmail.com"
-                        class="text-white">ehsaasgroup2015@gmail.com</a></p>
-                <p><strong>Email:</strong> <a href="mailto:infoehasaasgkp@gmail.com"
-                        class="text-white">infoehasaasgkp@gmail.com</a></p>
-                <p><strong>Email:</strong> <a href="mailto:infoehasaaslku@gmail.com"
-                        class="text-white">infoehasaaslku@gmail.com</a></p>
-
-                <div class="social-icons d-flex mt-3">
-                    <a href="https://www.facebook.com/photo/?fbid=122106119504988011&set=a.122106119522988011"
-                        target="_blank"><i class="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com/rahularyan9191/" target="_blank"><i
-                            class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-youtube"></i></a>
-                    <!-- <a href="#"><i class="bi bi-linkedin"></i></a> -->
+                <div class="footer-contact">
+                    <p><strong>Address:</strong><br> Ormanjhi, Irba, Rukka, dam road, Dhobiya Ghat, Hutup, Ranchi, Jharkhand 835219
+                    </p>
+                    <p><strong>Phone:</strong> <a href="tel:+919955118285">+91 99551 18285</a><br>
+                        <strong>WhatsApp:</strong> <a href="https://wa.me/919955118285" target="_blank">+91 99551 18285</a>
+                    </p>
+                    
+                    <!-- <div class="social-icons d-flex mt-3">
+                        <a href="https://www.facebook.com/photo/?fbid=122106119504988011&set=a.122106119522988011"
+                            target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/rahularyan9191/" target="_blank"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div> -->
                 </div>
             </div>
+
         </div>
 
-        <!-- Copyright -->
-        <div class="bottom-footer mt-4">
+        <!-- Bottom Footer -->
+        <div class="bottom-footer mt-5">
             <p class="mb-0">
                 &copy;
-                <script>document.write(new Date().getFullYear());</script> Ehsaas Nasha Mukti Kendra | All Rights
+                <script>document.write(new Date().getFullYear());</script> Nasha Mukti Kendra Ranchi | All Rights
                 Reserved |
-                Website Design & Maintained By: <a href="http://coralwebtechnology.com/"
-                    class="text-white text-decoration-none" target="_blank">Coral Web Technology</a>
+                Website Design & Maintained By:
+                <a href="http://coralwebtechnology.com/" target="_blank">Coral Web Technology</a>
             </p>
         </div>
     </div>

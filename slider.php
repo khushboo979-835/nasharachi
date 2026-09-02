@@ -7,7 +7,7 @@
     <div class="container">
         <div class="head-title text-center mb-5">
             <h2>Our <span>Gallery</span></h2>
-            <p class="text-muted">A glimpse into <strong>Ehsaas Nasha Mukti Kendra</strong> – where healing begins and
+            <p class="text-muted">A glimpse into <strong>Nasha Mukti Kendra Ranchi</strong> – where healing begins and
                 transformations happen.</p>
         </div>
 
@@ -16,9 +16,9 @@
 
                 <!-- Slide 1 -->
                 <div class="swiper-slide">
-                    <a data-fancybox="gallery" href="assets/images/gallery/1.png">
+                    <a data-fancybox="gallery" href="assets/images/gallery/1.jpg">
                         <div class="gallery-card">
-                            <img src="assets/images/gallery/1.png" alt="Gallery 1" />
+                            <img src="assets/images/gallery/1.jpg" alt="Gallery 1" />
                         </div>
                     </a>
                 </div>
@@ -106,7 +106,7 @@
     .service-slider {
         padding: 80px 20px;
         background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(245, 245, 245, 0.7)),
-            url("assets/images/background/2.jpg") center/cover fixed;
+            url("assets/images/background/4.jpg") center/cover fixed;
         border-radius: 25px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }

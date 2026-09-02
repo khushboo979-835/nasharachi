@@ -4,10 +4,10 @@
         <i class="bi bi-chat-dots"></i>
     </div>
     <div class="chatbot-options" id="chatbotOptions">
-        <a href="tel:+918178864366" class="chatbot-btn call-btn">
+        <a href="tel:+919955118285" class="chatbot-btn call-btn">
             <i class="bi bi-telephone"></i>
         </a>
-        <a href="https://wa.me/918178864366" target="_blank" class="chatbot-btn whatsapp-btn">
+        <a href="https://wa.me/919955118285" target="_blank" class="chatbot-btn whatsapp-btn">
             <i class="bi bi-whatsapp"></i>
         </a>
     </div>

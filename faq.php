@@ -6,14 +6,11 @@
             <h2 class="fw-bold">
                 Frequently Asked <span>Questions</span>
             </h2>
-            <p class="text-muted">Clear answers to the most common queries about <strong>Ehsaas Nasha Mukti Kendra,
-                    Gorakhpur</strong>.</p>
+            <p class="text-muted">Clear answers to the most common queries about <strong>Nasha Mukti Kendra Ranchi</strong>.</p>
         </div>
 
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <img src="assets/images/gallery/19.jpg" alt="faq" class="img-fluid w-100">
-            </div>
+        <div class="row align-items-center justify-content-center">
+            
             <div class="col-md-8">
                 <!-- Bootstrap Accordion -->
                 <div class="accordion faq-accordion" id="faqAccordion">
@@ -23,15 +20,15 @@
                         <h2 class="accordion-header" id="faqHeading1">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
-                                What is Ehsaas Nasha Mukti Kendra?
+                                What is Nasha Mukti Kendra Ranchi?
                             </button>
                         </h2>
                         <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1"
                             data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                <strong>Ehsaas Nasha Mukti Kendra</strong> is a professional rehabilitation and
+                                <strong>Nasha Mukti Kendra Ranchi</strong> is a professional rehabilitation and
                                 de-addiction
-                                center in Gorakhpur that helps individuals recover from alcohol and drug addiction
+                                center in Ranchi, Jharkhand that helps individuals recover from alcohol and drug addiction
                                 through
                                 counseling, therapy, and medical support.
                             </div>

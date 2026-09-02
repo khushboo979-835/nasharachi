@@ -1,5 +1,5 @@
 <!-- Contact Section -->
-<section class="contact-section py-5 " >
+<section class="contact-section py-5 ">
     <div class="container">
         <div class="row g-4 align-items-center">
 
@@ -15,8 +15,7 @@
                         <i class="bi bi-geo-alt-fill  fs-5 me-3"></i>
                         <div>
                             <h6 class="fw-semibold mb-1">Address</h6>
-                            <p class="mb-0">C 178/112 Old Home Guard Office Daudpur Chauraha, Gorakhpur, Uttar Pradesh
-                                273001</p>
+                            <p class="mb-0">Ormanjhi, Irba, Rukka, dam road, Dhobiya Ghat, Hutup, Ranchi, Jharkhand 835219</p>
                         </div>
                     </div>
 
@@ -25,33 +24,18 @@
                         <i class="bi bi-telephone-fill  fs-5 me-3"></i>
                         <div>
                             <h6 class="fw-semibold mb-1">Phone</h6>
-                            <p class="mb-0"><a href="tel:+917272818208" class="text-dark">+91 72728 18208</a></p>
-                            <p class="mb-0"><a href="tel:+917272818209" class="text-dark">+91 72728 18209</a></p>
+                            <p class="mb-0"><a href="tel:+919955118285" class="text-dark">+91 99551 18285</a></p>
+                            <p class="mb-0"><a href="https://wa.me/919955118285" target="_blank" class="text-dark">WhatsApp: +91 99551 18285</a></p>
                         </div>
                     </div>
 
-                    <!-- Email -->
-                    <div class="mb-4 d-flex border-start border-success rounded">
-                        <i class="bi bi-envelope-fill fs-5 me-3"></i>
-                        <div>
-                            <h6 class="fw-semibold mb-1">Email</h6>
-                            <p class="mb-0"><a href="mailto:ehsaasgroup2015@gmail.com"
-                                    class="text-dark">ehsaasgroup2015@gmail.com</a>
-                            </p>
-                            <p class="mb-0"><a href="mailto:infoehasaasgkp@gmail.com"
-                                    class="text-dark">infoehasaasgkp@gmail.com</a>
-                            </p>
-                            <p class="mb-0"><a href="mailto:infoehasaaslku@gmail.com"
-                                    class="text-dark">infoehasaaslku@gmail.com</a>
-                            </p>
-                        </div>
-                    </div>
+
 
                     <!-- Google Map -->
                     <div class="map-container">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57014.39626378059!2d83.34069794941092!3d26.731616144099274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991447ee4453c47%3A0x932f417761eefebe!2sEhsaas%20Nasha%20Mukti%20Kendra!5e0!3m2!1sen!2sin!4v1757935900100!5m2!1sen!2sin"
-                            width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117180.24706596395!2d85.2513251972656!3d23.365920700000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e104aa5db7dd%3A0xdc09d49d6899f43e!2sRanchi%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                            width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
@@ -62,7 +46,8 @@
                 <div class="card contact-card border-0 shadow p-4">
                     <div class="head-title">
                         <h2 class="mb-3 fw-bold">Send Us a <span>Message</span></h2>
-                        <p class="mb-4">Reach out to <strong>Ehsaas Nasha Mukti Kendra</strong> for support and guidance
+                        <p class="mb-4">Reach out to <strong>Nasha Mukti Kendra Ranchi</strong> for
+                            support and guidance
                             on recovery.</p>
                     </div>
                     <form id="mainContactForm" class="needs-validation" novalidate>
@@ -191,7 +176,7 @@
                 var message = document.getElementById('cmessage').value;
 
                 // WhatsApp number (replace with your number, include country code without +)
-                var whatsappNumber = '919876543210';
+                var whatsappNumber = '919955118285';
 
                 // Construct WhatsApp message
                 var whatsappMessage = `*New Contact Form Submission*\n\n*Name:* ${name}\n*Number:* ${number}\n*Address:* ${address}\n*Service:* ${service}\n*Message:* ${message}`;

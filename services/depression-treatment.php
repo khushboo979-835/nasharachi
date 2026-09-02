@@ -31,14 +31,14 @@
                     <div class="row">
                         <div class="col-md-12 mb-3">
                             <img src="<?= $base_url ?>/assets/images/services/services/depression.jpg"
-                                alt="depression treatment in Gorakhpur" class="img-fluid">
+                                alt="depression treatment in Ranchi, Jharkhand" class="img-fluid">
                         </div>
                         <div class="col-md-12">
-                            <h2 class="mb-3 title">Depression Treatment in Gorakhpur</h2>
+                            <h2 class="mb-3 title">Depression Treatment in Ranchi, Jharkhand</h2>
                             <p class="text-justify text-muted">
                                 Depression is a common mental health disorder that affects mood, motivation, and daily
                                 life.
-                                Our <strong>depression treatment program in Gorakhpur</strong> offers professional
+                                Our <strong>depression treatment program in Ranchi, Jharkhand</strong> offers professional
                                 therapy and
                                 counseling to help individuals manage symptoms and lead a balanced, fulfilling life.
                             </p>
@@ -47,7 +47,7 @@
                             <p class="text-justify text-muted">
                                 Untreated depression can impact relationships, work, and overall well-being. Seeking
                                 professional
-                                <strong>depression therapy in Gorakhpur</strong> helps individuals understand triggers,
+                                <strong>depression therapy in Ranchi, Jharkhand</strong> helps individuals understand triggers,
                                 develop coping
                                 strategies, and improve mental health outcomes.
                             </p>
@@ -78,11 +78,11 @@
 
                             <h3 class="mt-4 title">Benefits of Our Depression Treatment</h3>
                             <p class="text-justify text-muted">
-                                Our <strong>depression therapy center in Gorakhpur</strong> provides a safe and
+                                Our <strong>depression therapy center in Ranchi, Jharkhand</strong> provides a safe and
                                 confidential space for recovery.
                                 Patients experience improved mood, better emotional stability, and tools to manage
                                 stress effectively.
-                                Choosing our <strong>depression treatment services in Gorakhpur</strong> ensures
+                                Choosing our <strong>depression treatment services in Ranchi, Jharkhand</strong> ensures
                                 comprehensive support
                                 for mental health and long-term well-being.
                             </p>

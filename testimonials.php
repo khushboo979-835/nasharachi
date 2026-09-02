@@ -14,11 +14,10 @@
                 <!-- Slide 1 -->
                 <div class="swiper-slide">
                     <div class="shadow-effect">
-                        <img src="assets/images/others/user.jpg" alt="Rajesh Kumar">
+                        <img src="assets/images/others/user.jpg" alt="Mohd Faiz khan">
                         <p>
-                            best rehab center in Gorakhpur pichle 10 saal se maine yha pe bahut logo ko thik hote dekha
-                            hu aur mere wha ka khud patient jo bahut bigra hua tha voh aaj khud itna acha h ki usko dekh
-                            ke log wha ja rhe h aur ilaj kra rhe h</p>
+                            Best rehab center in Ranchi, Jharkhand. Pichle kayi saalo se maine yha pe bahut logo ko thik hote dekha
+                            hai aur hamare patient jo bahut pareshan the, aaj bilkul swasth hain aur achi zindagi jee rahe hain.</p>
                     </div>
                     <div class="testimonial-name">Mohd Faiz khan</div>
                 </div>
@@ -26,9 +25,9 @@
                 <!-- Slide 2 -->
                 <div class="swiper-slide">
                     <div class="shadow-effect">
-                        <img src="assets/images/others/user.jpg" alt="Priya Singh">
-                        <p>Ek hafte pahle mareej ko wahan se laaya bilkul hi badal gaya hai
-                            Thanks ehsaas team</p>
+                        <img src="assets/images/others/user.jpg" alt="Anita masih">
+                        <p>Ek hafte pahle mareej ko wahan se laaya bilkul hi badal gaya hai.
+                            Thanks Nasha Mukti Kendra Ranchi team</p>
                     </div>
                     <div class="testimonial-name">Anita masih</div>
                 </div>
@@ -36,11 +35,10 @@
                 <!-- Slide 3 -->
                 <div class="swiper-slide">
                     <div class="shadow-effect">
-                        <img src="assets/images/others/user.jpg" alt="Amit Verma">
-                        <p>I have visited almost 1an half months for study which is related to my subject psychology,
-                            overall my experience was the staff empathetic & mannered ,who truly put client cares as a
-                            priority. If a family member we're struggling with addiction . I would not hesitate in the
-                            slightest to send them to Ehsaas Nasha Mukti kendra🙂🧿</p>
+                        <img src="assets/images/others/user.jpg" alt="Annu Sharma">
+                        <p>Overall my experience was that the staff is empathetic & well mannered, who truly put client care as a
+                            priority. If a family member was struggling with addiction, I would not hesitate in the
+                            slightest to recommend Nasha Mukti Kendra Ranchi.🙂🧿</p>
                     </div>
                     <div class="testimonial-name">Annu Sharma</div>
                 </div>
@@ -48,10 +46,9 @@
                 <!-- Slide 4 -->
                 <div class="swiper-slide">
                     <div class="shadow-effect">
-                        <img src="assets/images/others/user.jpg" alt="Sunita Devi">
-                        <p>best rehab centre in gkp because i am very happy with our patient after meet and also their
-                            staff is very sensitive and sweet speak of family
-                            very very thanks of this rehab</p>
+                        <img src="assets/images/others/user.jpg" alt="Irfan Bhai">
+                        <p>Best rehab centre in Ranchi because I am very happy with our patient after treatment and also their
+                            staff is very sensitive and supportive with family. Very thankful to this centre.</p>
                     </div>
                     <div class="testimonial-name">Irfan Bhai</div>
                 </div>
@@ -59,28 +56,27 @@
                 <!-- Slide 5 -->
                 <div class="swiper-slide">
                     <div class="shadow-effect">
-                        <img src="assets/images/others/user.jpg" alt="Manoj Yadav">
-                        <p>Bahut achi jagah Maine apne ladko ko admit krwaya aur aaj mera ladka ekdm thik ho gya hai
-                            bahut bahut dhanyabad ehsaas rehab center</p>
+                        <img src="assets/images/others/user.jpg" alt="Gabbu Singh">
+                        <p>Bahut achi jagah. Maine apne ladke ko admit karwaya aur aaj mera ladka ekdum thik ho gaya hai.
+                            Bahut bahut dhanyawad Nasha Mukti Kendra Ranchi.</p>
                     </div>
                     <div class="testimonial-name">Gabbu Singh</div>
                 </div>
 
-
                 <div class="swiper-slide">
                     <div class="shadow-effect">
-                        <img src="assets/images/others/user.jpg" alt="Manoj Yadav">
-                        <p>Good service best treatement and alcohol addiction best doctor in psychiatrist best counselor
-                            in Gorakhpur thank you so much as ehsaas</p>
+                        <img src="assets/images/others/user.jpg" alt="Shubhashini Mishra">
+                        <p>Good service, best treatment and alcohol addiction doctor and best counselor
+                            in Ranchi. Thank you so much Nasha Mukti Kendra Ranchi team.</p>
                     </div>
                     <div class="testimonial-name">Shubhashini Mishra</div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="shadow-effect">
-                        <img src="assets/images/others/user.jpg" alt="Manoj Yadav">
-                        <p>Ehsaas is a very good rehab center here in Drug addicts are admitted as patients and treated
-                            very well and thousands of people have found a new life through this experience. 👍👍👍</p>
+                        <img src="assets/images/others/user.jpg" alt="Iftekhar Hussain">
+                        <p>Nasha Mukti Kendra Ranchi is a very good rehab center. Addicts are admitted and treated
+                            very well and thousands of people have found a new life here. 👍👍👍</p>
                     </div>
                     <div class="testimonial-name">Iftekhar Hussain</div>
                 </div>
@@ -99,7 +95,7 @@
 <!-- Testimonial Styles (copy into your CSS file or directly below) -->
 <style>
     .testimonials {
-        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(245, 245, 245, 0.8)), url("assets/images/background/2.jpg") center/cover fixed;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(245, 245, 245, 0.8)), url("assets/images/background/4.jpg") center/cover fixed;
         padding: 80px 0;
     }
 
