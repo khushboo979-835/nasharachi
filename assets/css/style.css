@@ -800,3 +800,97 @@ body {
     transform: scale(0.95);
     box-shadow: 0 2px 8px rgba(0, 123, 255, 0.4);
 }
+
+/* ================= Ranchi Poster Card Style ================= */
+.ranchi-poster-card {
+    background: linear-gradient(180deg, #f0fdf4 0%, #dcfce7 100%);
+    border: 3px solid #86efac;
+    border-radius: 24px;
+    position: relative;
+    max-width: 480px;
+    margin: 0 auto;
+    box-shadow: 0 15px 35px rgba(22, 101, 52, 0.15) !important;
+    overflow: hidden;
+    padding: 30px 20px;
+}
+
+.ranchi-poster-card::before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 140px;
+    height: 140px;
+    background: radial-gradient(circle, rgba(34, 197, 94, 0.2) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.ranchi-poster-card .poster-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ranchi-poster-card .poster-title-badge {
+    display: inline-block;
+    background: linear-gradient(180deg, #22c55e 0%, #15803d 100%);
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.55rem;
+    padding: 10px 28px;
+    border-radius: 50px;
+    box-shadow: 0 6px 15px rgba(21, 128, 61, 0.35), inset 0 2px 3px rgba(255, 255, 255, 0.4);
+    border: 2px solid #166534;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.5px;
+}
+
+.ranchi-poster-card .poster-quote-box {
+    position: relative;
+    background: #ffffff;
+    border: 2px solid #22c55e;
+    border-radius: 12px;
+    padding: 14px 28px;
+    margin: 16px auto;
+    display: inline-block;
+    width: 94%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.ranchi-poster-card .poster-quote-box .quote-mark {
+    position: absolute;
+    color: #16a34a;
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.ranchi-poster-card .poster-quote-box .quote-left {
+    top: 6px;
+    left: 8px;
+}
+
+.ranchi-poster-card .poster-quote-box .quote-right {
+    bottom: 6px;
+    right: 8px;
+}
+
+.ranchi-poster-card .poster-quote-box .quote-text {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #1f2937;
+    line-height: 1.45;
+}
+
+.ranchi-poster-card .poster-sub-badge {
+    background: #14532d;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #166534;
+}

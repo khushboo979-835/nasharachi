@@ -68,7 +68,48 @@
                 </div>
 
                 <div class="col-md-6 mb-3">
-                    <img src="<?= $base_url ?>/assets/images/gallery/1.jpg" alt="Nasha Mukti Kendra Ranchi" class="img-fluid rounded shadow">
+                    <div class="ranchi-poster-card shadow-lg text-center">
+                        <div class="poster-icon mb-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="85" height="85">
+                                <defs>
+                                    <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#4ade80" />
+                                        <stop offset="50%" stop-color="#22c55e" />
+                                        <stop offset="100%" stop-color="#15803d" />
+                                    </linearGradient>
+                                    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#86efac" />
+                                        <stop offset="100%" stop-color="#16a34a" />
+                                    </linearGradient>
+                                </defs>
+                                <path d="M 50 35 C 30 20, 25 50, 48 65 C 65 55, 60 40, 50 35 Z" fill="url(#leafGrad)" stroke="#166534" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M 110 125 C 130 140, 135 110, 112 95 C 95 105, 100 120, 110 125 Z" fill="url(#leafGrad)" stroke="#166534" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                <g transform="rotate(-45 80 80)">
+                                    <path d="M 56 80 L 56 110 A 24 24 0 0 0 104 110 L 104 80 Z" fill="url(#capGrad)" stroke="#166534" stroke-width="4"/>
+                                    <path d="M 56 80 L 56 50 A 24 24 0 0 1 104 50 L 104 80 Z" fill="#ffffff" stroke="#166534" stroke-width="4"/>
+                                    <line x1="56" y1="80" x2="104" y2="80" stroke="#166534" stroke-width="4"/>
+                                    <path d="M 64 45 A 16 16 0 0 1 80 36" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="3" stroke-linecap="round"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="poster-title-badge mb-3">
+                            नशा मुक्ति केंद्र रांची
+                        </div>
+
+                        <div class="poster-quote-box mb-3">
+                            <span class="quote-mark quote-left">“</span>
+                            <div class="quote-text">
+                                नशा का जो हुआ शिकार,<br>
+                                बिखरा उसका घर परिवार।
+                            </div>
+                            <span class="quote-mark quote-right">”</span>
+                        </div>
+
+                        <div class="poster-sub-badge">
+                            रांची का एकमात्र भरोसेमंद नशा मुक्ति केंद्र - 100% रिकवरी रेट
+                        </div>
+                    </div>
                 </div>
 
             </div>
