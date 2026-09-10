@@ -264,7 +264,6 @@
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="<?= $base_url ?>blogs">Blogs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?= $base_url ?>gallery.php">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= $base_url ?>contact-us.php">Contact Us</a></li>
                     <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
                         <a class="btn-nav-book" href="<?= $base_url ?>book-now.php">Book Now</a>

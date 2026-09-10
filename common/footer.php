@@ -127,7 +127,6 @@
                 <ul class="list-unstyled">
                     <li><a href="<?= $base_url ?>">Home</a></li>
                     <li><a href="<?= $base_url ?>about-us.php">About Us</a></li>
-                    <li><a href="<?= $base_url ?>gallery.php">Gallery</a></li>
                     <li><a href="<?= $base_url ?>contact-us.php">Contact</a></li>
                 </ul>
             </div>
