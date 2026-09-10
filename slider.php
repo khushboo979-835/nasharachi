@@ -16,77 +16,81 @@
 
                 <!-- Slide 1 -->
                 <div class="swiper-slide">
-                    <a data-fancybox="gallery" href="assets/images/gallery/1.jpg">
+                    <a data-fancybox="gallery" href="assets/images/gallery/1.jpg" data-caption="Nasha Mukti Kendra Ranchi Building">
                         <div class="gallery-card">
-                            <img src="assets/images/gallery/1.jpg" alt="Gallery 1" />
+                            <img src="assets/images/gallery/1.jpg" alt="Nasha Mukti Kendra Ranchi Building" />
                         </div>
                     </a>
                 </div>
 
                 <!-- Slide 2 -->
                 <div class="swiper-slide">
-                    <a data-fancybox="gallery" href="assets/images/gallery/2.jpg">
+                    <a data-fancybox="gallery" href="assets/images/gallery/2.jpg" data-caption="Consultation Cabin">
                         <div class="gallery-card">
-                            <img src="assets/images/gallery/2.jpg" alt="Gallery 2" />
+                            <img src="assets/images/gallery/2.jpg" alt="Consultation Cabin" />
                         </div>
                     </a>
                 </div>
 
                 <!-- Slide 3 -->
                 <div class="swiper-slide">
-                    <a data-fancybox="gallery" href="assets/images/gallery/3.jpg">
+                    <a data-fancybox="gallery" href="assets/images/gallery/3.jpg" data-caption="Patient Accommodation Ward">
                         <div class="gallery-card">
-                            <img src="assets/images/gallery/3.jpg" alt="Gallery 3" />
+                            <img src="assets/images/gallery/3.jpg" alt="Patient Accommodation Ward" />
                         </div>
                     </a>
                 </div>
 
                 <!-- Slide 4 -->
                 <div class="swiper-slide">
-                    <a data-fancybox="gallery" href="assets/images/gallery/4.jpg">
+                    <a data-fancybox="gallery" href="assets/images/gallery/4.jpg" data-caption="Centre Campus">
                         <div class="gallery-card">
-                            <img src="assets/images/gallery/4.jpg" alt="Gallery 4" />
+                            <img src="assets/images/gallery/4.jpg" alt="Centre Campus" />
                         </div>
                     </a>
                 </div>
 
                 <!-- Slide 5 -->
                 <div class="swiper-slide">
-                    <a data-fancybox="gallery" href="assets/images/gallery/5.jpg">
+                    <a data-fancybox="gallery" href="assets/images/gallery/5.jpg" data-caption="Recovery Ward">
                         <div class="gallery-card">
-                            <img src="assets/images/gallery/5.jpg" alt="Gallery 5" />
+                            <img src="assets/images/gallery/5.jpg" alt="Recovery Ward" />
                         </div>
                     </a>
                 </div>
 
+                <!-- Slide 6 -->
                 <div class="swiper-slide">
-                    <a data-fancybox="gallery" href="assets/images/gallery/6.jpg">
+                    <a data-fancybox="gallery" href="assets/images/gallery/6.jpg" data-caption="Doctor Cabin">
                         <div class="gallery-card">
-                            <img src="assets/images/gallery/6.jpg" alt="Gallery 5" />
+                            <img src="assets/images/gallery/6.jpg" alt="Doctor Cabin" />
                         </div>
                     </a>
                 </div>
 
+                <!-- Slide 7 -->
                 <div class="swiper-slide">
-                    <a data-fancybox="gallery" href="assets/images/gallery/7.jpg">
+                    <a data-fancybox="gallery" href="assets/images/gallery/7.jpg" data-caption="Garden & Open Area">
                         <div class="gallery-card">
-                            <img src="assets/images/gallery/7.jpg" alt="Gallery 5" />
+                            <img src="assets/images/gallery/7.jpg" alt="Garden & Open Area" />
                         </div>
                     </a>
                 </div>
 
+                <!-- Slide 8 -->
                 <div class="swiper-slide">
-                    <a data-fancybox="gallery" href="assets/images/gallery/8.jpg">
+                    <a data-fancybox="gallery" href="assets/images/gallery/8.jpg" data-caption="Patient Rooms">
                         <div class="gallery-card">
-                            <img src="assets/images/gallery/8.jpg" alt="Gallery 5" />
+                            <img src="assets/images/gallery/8.jpg" alt="Patient Rooms" />
                         </div>
                     </a>
                 </div>
 
+                <!-- Slide 9 -->
                 <div class="swiper-slide">
-                    <a data-fancybox="gallery" href="assets/images/gallery/9.jpg">
+                    <a data-fancybox="gallery" href="assets/images/gallery/9.jpg" data-caption="Centre Entrance">
                         <div class="gallery-card">
-                            <img src="assets/images/gallery/9.jpg" alt="Gallery 5" />
+                            <img src="assets/images/gallery/9.jpg" alt="Centre Entrance" />
                         </div>
                     </a>
                 </div>
