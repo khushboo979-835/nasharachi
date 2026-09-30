@@ -201,7 +201,7 @@
 </style>
 
 <?php
-// 11 Branches / Centre Locations - All named "Nasha Mukti Kendra Ranchi" with Google Links
+// All 11 Branches & Corporate Office - Named "Nasha Mukti Kendra Ranchi" with Google Links
 $footer_branches = [
     [
         'title' => 'Corporate Office',
@@ -275,6 +275,13 @@ $footer_branches = [
     ],
     [
         'title' => '10th Branch',
+        'badge' => 'Bokaro',
+        'name' => 'Nasha Mukti Kendra Ranchi',
+        'address' => 'Main Road, Chas, Bokaro Steel City, Jharkhand - 827013',
+        'map_link' => 'https://maps.google.com/?q=Chas+Bokaro+Jharkhand'
+    ],
+    [
+        'title' => '11th Branch',
         'badge' => 'Sahebganj',
         'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'Near Surya Super Speciality Hospital, Sahebganj, Jharkhand - 816109',
@@ -348,18 +355,18 @@ $footer_branches = [
                         <a href="https://wa.me/919288287732" target="_blank" class="fw-bold text-white fs-6 ms-1">+91 92882 87732</a>
                     </p>
                     <a href="#footer-branches" class="btn btn-outline-warning btn-sm rounded-pill px-3 py-1">
-                        <i class="bi bi-pin-map-fill me-1"></i> View All 11 Centre Locations
+                        <i class="bi bi-pin-map-fill me-1"></i> View All Branch Locations
                     </a>
                 </div>
             </div>
 
         </div>
 
-        <!-- Middle Footer: 11 Branches & Centre Locations (Matches Reference Layout) -->
+        <!-- Middle Footer: 11 Branches & Corporate Office Locations -->
         <div class="footer-branches-wrapper" id="footer-branches">
             <div class="d-flex align-items-center justify-content-between mb-3 flex-wrap gap-2">
                 <h4 class="footer-branches-heading mb-0">
-                    <i class="bi bi-geo-alt-fill text-warning me-2"></i> Our Branches & Centre Locations Across Jharkhand (11 Locations)
+                    <i class="bi bi-geo-alt-fill text-warning me-2"></i> Our Branches & Centre Locations Across Jharkhand
                 </h4>
                 <span class="badge bg-warning text-dark py-2 px-3 rounded-pill fw-bold">24/7 Admission & Ambulance Support</span>
             </div>
