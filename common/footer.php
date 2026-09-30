@@ -116,15 +116,16 @@
     .footer-branch-name {
         color: #ffffff;
         font-weight: 600;
-        font-size: 14.5px;
-        margin-bottom: 4px;
+        font-size: 15px;
+        margin-bottom: 5px;
+        letter-spacing: 0.2px;
     }
 
     .footer-branch-address {
         font-size: 13.5px;
         line-height: 1.55;
         color: #d1d5db;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
 
     .footer-branch-actions {
@@ -135,42 +136,24 @@
         margin-top: 6px;
     }
 
-    .btn-branch-phone {
-        background: #198754;
-        color: #ffffff !important;
-        font-size: 12.5px;
-        font-weight: 600;
-        padding: 4px 12px;
-        border-radius: 20px;
-        display: inline-flex;
-        align-items: center;
-        gap: 5px;
-        text-decoration: none !important;
-        transition: all 0.25s ease;
-    }
-
-    .btn-branch-phone:hover {
-        background: #157347;
-        color: #ffffff !important;
-        transform: scale(1.03);
-    }
-
     .btn-branch-map {
         background: rgba(255, 255, 255, 0.15);
         color: #ffffff !important;
-        font-size: 12.5px;
-        font-weight: 500;
-        padding: 4px 12px;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 5px 14px;
         border-radius: 20px;
         display: inline-flex;
         align-items: center;
-        gap: 5px;
+        gap: 6px;
         text-decoration: none !important;
         transition: all 0.25s ease;
+        border: 1px solid rgba(255, 255, 255, 0.2);
     }
 
     .btn-branch-map:hover {
         background: #0284c7;
+        border-color: #0284c7;
         color: #ffffff !important;
         transform: scale(1.03);
     }
@@ -208,6 +191,9 @@
         .footer-branch-title {
             font-size: 14.5px;
         }
+        .footer-branch-name {
+            font-size: 14px;
+        }
         .footer-branch-address {
             font-size: 13px;
         }
@@ -215,105 +201,83 @@
 </style>
 
 <?php
-// 11 Branches / Centre Locations with Google Links and Phone Numbers
+// 11 Branches / Centre Locations - All named "Nasha Mukti Kendra Ranchi" with Google Links
 $footer_branches = [
     [
         'title' => 'Corporate Office',
         'badge' => 'Head Office',
-        'name' => 'Nasha Mukti Kendra Ranchi (Main Centre)',
+        'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'Ormanjhi, Irba, Rukka Dam Road, Dhobiya Ghat, Hutup, Ranchi, Jharkhand - 835219',
-        'phone' => '+91 92882 87732',
-        'phone_link' => 'tel:+919288287732',
         'map_link' => 'https://maps.google.com/?q=Ormanjhi+Ranchi+Jharkhand+835219'
     ],
     [
         'title' => '1st Branch',
         'badge' => 'Ramgarh',
-        'name' => 'Punahsthapanaa Foundation Trust | Nasha Mukti Kendra Ramgarh',
+        'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'Sahera Road, Kochatoli, Namkum-Ramgarh Road, Ranchi-Ramgarh Zone, Jharkhand',
-        'phone' => '+91 62070 95651',
-        'phone_link' => 'tel:+916207095651',
         'map_link' => 'https://share.google/MyCHwNMfw9Nd0Rq3B'
     ],
     [
         'title' => '2nd Branch',
         'badge' => 'Jamshedpur',
-        'name' => 'Sthapanaa Nasha Mukti Kendra Jamshedpur',
+        'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'Tamulia Main Road, Opposite Dukhid Mandir, Kapali, Jamshedpur, Jharkhand - 831020',
-        'phone' => '+91 79799 53418',
-        'phone_link' => 'tel:+917979953418',
         'map_link' => 'https://share.google/okVxLnHdJsawq2AwO'
     ],
     [
         'title' => '3rd Branch',
         'badge' => 'Hazaribagh',
-        'name' => 'Bright Hope Foundation | Rehabilitation Center',
+        'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'Singhani Road, Amrit Nagar, Hazaribagh, Jharkhand - 825303',
-        'phone' => '+91 97712 88737',
-        'phone_link' => 'tel:+919771288737',
         'map_link' => 'https://share.google/xchpqLFFYxsrPnQjK'
     ],
     [
         'title' => '4th Branch',
         'badge' => 'Dhanbad',
-        'name' => 'Dhanbad Arogya Bhawan | Nasha Mukti Kendra',
+        'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'Damkara, Barwa, Shivam Nagar, Barwadda Road, Near Krishi Bazar, Dhanbad, Jharkhand - 826004',
-        'phone' => '+91 84342 69039',
-        'phone_link' => 'tel:+918434269039',
         'map_link' => 'https://www.google.com/search?sca_esv=cc12825c4d4cb41c&cs=1&output=search&kgmid=%2Fg%2F11rt_sng8b&q=Dhanbad%20Arogya%20bhawan%2CNASHA%20MUKTI%20KENDRA'
     ],
     [
         'title' => '5th Branch',
         'badge' => 'Hazaribagh',
-        'name' => 'Hazaribagh Sankalp Foundation | Nasha Mukti Kendra',
+        'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'Vikash Nagar, Dipugarha, Hazaribagh, Jharkhand - 825301',
-        'phone' => '+91 62020 64413',
-        'phone_link' => 'tel:+916202064413',
         'map_link' => 'https://share.google/FyMgOynKGkGxqtUtO'
     ],
     [
         'title' => '6th Branch',
         'badge' => 'Palamu / Daltonganj',
-        'name' => 'Nasha Mukti Kendra Heritage Centre Daltonganj',
+        'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'P.O. Chianki, Ranchi Road, Daltonganj, Palamu, Jharkhand - 822102',
-        'phone' => '+91 93080 09619',
-        'phone_link' => 'tel:+919308009619',
         'map_link' => 'https://share.google/DR7NE73YHynOxYorQ'
     ],
     [
         'title' => '7th Branch',
         'badge' => 'Palamu',
-        'name' => 'Nasha Mukti Kendra Palamu Regional Centre',
+        'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'Main Road, Medininagar (Daltonganj), Palamu, Jharkhand - 822101',
-        'phone' => '+91 92882 87732',
-        'phone_link' => 'tel:+919288287732',
         'map_link' => 'https://share.google/dqD3gN2CqmcwjWCVY'
     ],
     [
         'title' => '8th Branch',
         'badge' => 'West Singhbhum',
-        'name' => 'Nasha Mukti Kendra West Singhbhum',
+        'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'Near Sadar Chowk, Chaibasa, West Singhbhum, Jharkhand - 833201',
-        'phone' => '+91 92882 87732',
-        'phone_link' => 'tel:+919288287732',
         'map_link' => 'https://share.google/dqD3gN2CqmcwjWCVY'
     ],
     [
         'title' => '9th Branch',
         'badge' => 'Seraikela-Kharsawan',
-        'name' => 'Nasha Mukti Kendra Seraikela',
+        'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'Near Police Station Road, Seraikela, Seraikela-Kharsawan, Jharkhand - 833219',
-        'phone' => '+91 92882 87732',
-        'phone_link' => 'tel:+919288287732',
         'map_link' => 'https://share.google/EzFOHG1Dn9f0iOsXz'
     ],
     [
         'title' => '10th Branch',
         'badge' => 'Sahebganj',
-        'name' => 'Nasha Mukti Kendra Sahebganj',
+        'name' => 'Nasha Mukti Kendra Ranchi',
         'address' => 'Near Surya Super Speciality Hospital, Sahebganj, Jharkhand - 816109',
-        'phone' => '+91 92882 87732',
-        'phone_link' => 'tel:+919288287732',
         'map_link' => 'https://share.google/CN9rsod0dBHCyECjV'
     ],
 ];
@@ -416,11 +380,8 @@ $footer_branches = [
                                 <?= htmlspecialchars($branch['address']) ?>
                             </div>
                             <div class="footer-branch-actions">
-                                <a href="<?= htmlspecialchars($branch['phone_link']) ?>" class="btn-branch-phone" title="Call <?= htmlspecialchars($branch['name']) ?>">
-                                    <i class="bi bi-telephone-fill"></i> <?= htmlspecialchars($branch['phone']) ?>
-                                </a>
                                 <a href="<?= htmlspecialchars($branch['map_link']) ?>" target="_blank" rel="noopener noreferrer" class="btn-branch-map" title="View location on Google Map">
-                                    <i class="bi bi-box-arrow-up-right"></i> Google Map
+                                    <i class="bi bi-geo-alt-fill text-warning"></i> View on Google Map <i class="bi bi-box-arrow-up-right ms-1" style="font-size:10px;"></i>
                                 </a>
                             </div>
                         </div>
